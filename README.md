@@ -17,10 +17,10 @@ Prosty blog stworzony przy użyciu **Flask** i **SQLite**. Pozwala na dodawanie 
 ##  Zrzuty ekranu
 
 ###  Strona główna  
-![screen-1](.flask-blog/screen-1.png)
+![screen-1](flask-blog/screen-1.png)
 
 ###  Dodawanie nowego posta  
-![screen-2](.flask-blog/screen-2.png)
+![screen-2](flask-blog/screen-2.png)
 
 ##  Jak uruchomić lokalnie
 
