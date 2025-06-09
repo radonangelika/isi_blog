@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Lovely Blog</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img class="banner" src="https://source.unsplash.com/1600x400/?pastel,flowers" alt="banner">
+        <h1>🌸 My Blog 🌸</h1>
+        <a class="btn" href="/new">➕ New Post</a>
+
+        <ul class="post-list">
+            {% for post in posts %}
+            <li>
+                   <a href="/post/{{ loop.index0 }}">{{ post.title }}</a>
+                    <p class="excerpt">{{ post.content }}</p>
+                    <span class="date">{{ post.created.strftime('%d.%m.%Y %H:%M') }}</span>
+            </li>
+            {% else %}
+            <li class="empty">No posts yet! </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
