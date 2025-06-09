@@ -10,17 +10,17 @@ Prosty blog stworzony przy użyciu **Flask** i **SQLite**. Pozwala na dodawanie 
 - System dodawania i wyświetlania postów
 - Gotowe do wdrożenia na platformie Render
 
-## 🚀 Demo online
+## Demo online
 
-🔗 [Zobacz działającą aplikację](https://isi-blog-1.onrender.com/)
+[Zobacz działającą aplikację](https://isi-blog-1.onrender.com/)
 
 ##  Zrzuty ekranu
 
 ###  Strona główna  
-![screen-1](screen-1.png)
+![screen-1](.flask-blog/screen-1.png)
 
 ###  Dodawanie nowego posta  
-![screen-2](screen-2.png)
+![screen-2](.flask-blog/screen-2.png)
 
 ##  Jak uruchomić lokalnie
 
