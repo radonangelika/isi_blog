@@ -36,6 +36,7 @@ Prosty blog stworzony przy użyciu **Flask** i **SQLite**. Pozwala na dodawanie 
    
    
 ## Struktura
+```
 flask-blog/
 ├── app.py              # GŁÓWNY plik aplikacji Flask (uruchamia serwer)
 ├── templates/
